@@ -63,7 +63,7 @@ textarea {
 
 
 
-/* .buttons-container {
+.buttons-container {
     display: flex;
     justify-content: center;
     margin: 3.2rem 0;
@@ -122,5 +122,4 @@ textarea {
 
 .total-connections img {
     margin-left: 0.8rem;
-} */
-
+}
