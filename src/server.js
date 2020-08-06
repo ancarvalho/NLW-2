@@ -103,4 +103,4 @@ server
 .get("/", pageLanding)
 .get("/study", pageStudy)
 .get("/give-classes", pageGiveClasses)
-.set('port', (process.env.PORT || 8080));
+.listen(8080)
