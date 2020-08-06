@@ -103,4 +103,7 @@ server
 .get("/", pageLanding)
 .get("/study", pageStudy)
 .get("/give-classes", pageGiveClasses)
-.listen(80)
+.set('port', (process.env.PORT || 8080))
+.app.listen(app.get('port'), function() {
+    console.log('Node app is running on port', app.get('port'));
+  });
