@@ -103,4 +103,4 @@ server
 .get("/", pageLanding)
 .get("/study", pageStudy)
 .get("/give-classes", pageGiveClasses)
-.listen(5500)
+.listen(80)
